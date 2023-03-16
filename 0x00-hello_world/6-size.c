@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - main function
+ * main - A function to print the size of data types
  * Return: 0 (Success)
  */
-int main(viod)
+int main(void)
 {
 	char a;
 	int b;
@@ -14,5 +14,6 @@ int main(viod)
 	printf("Size of int: %lu byte(s)\n", (unsigned long)sizeof(b));
 	printf("size of long int: %lu byte(s)\n", (unsigned long)sizeof(c));
 	printf("size of long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
-	pritf("size of float: %lu byte(s)\n", (unsigned long)sizeof(f));
+	printf("size of float: %lu byte(s)\n", (unsigned long)sizeof(f));
 	return (0);
+}	
