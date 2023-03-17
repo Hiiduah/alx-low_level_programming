@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
  * main - A program to check if number is zero,positive or negative
@@ -6,6 +8,9 @@
 int main(void)
 {
 	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
 	printf("Enter the number to check");
 	scanf("%d", &n);
