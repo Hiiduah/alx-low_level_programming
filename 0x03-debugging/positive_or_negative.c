@@ -1,4 +1,11 @@
 #include "main.h"
+/**
+ * positive_or_negative - Checks if integer is
+ * positive negative or zero.
+ *
+ * @i: the integer to be computed.
+ * Return: value
+ */
 
 void positive_or_negative(int i)
 {
